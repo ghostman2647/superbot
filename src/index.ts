@@ -122,9 +122,9 @@ async function main() {
 //   process.once("SIGINT", exit);
 //   process.once("SIGTERM", exit);
 
-   const start = await bot.db.get("start");
-   if (start || start === null) {
-      await bot.loop();
-   }
+ //  const start = await bot.db.get("start");
+ //  if (start || start === null) {
+  //    await bot.loop();
+  // }
 //}
 main();
