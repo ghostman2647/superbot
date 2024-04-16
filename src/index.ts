@@ -111,20 +111,20 @@ async function main() {
       }, 1000 * 60);
    }
 
-//   const exit = async () => {
-  //    await bot.sleepAllHeroes();
-    //  await bot.stop();
-      //if (intervalReport) clearInterval(intervalReport);
-//
-  //    process.exit();
+  const exit = async () => {
+      await bot.sleepAllHeroes();
+      await bot.stop();
+      if (intervalReport) clearInterval(intervalReport);
+
+      process.exit();
    };
 
-//   process.once("SIGINT", exit);
-//   process.once("SIGTERM", exit);
+   process.once("SIGINT", exit);
+   process.once("SIGTERM", exit);
 
- //  const start = await bot.db.get("start");
- //  if (start || start === null) {
-  //    await bot.loop();
-  // }
-//}
+   const start = await bot.db.get("start");
+   if (start || start === null) {
+      await bot.loop();
+   }
+}
 main();
