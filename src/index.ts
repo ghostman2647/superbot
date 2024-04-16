@@ -119,8 +119,8 @@ async function main() {
   //    process.exit();
    };
 
-   process.once("SIGINT", exit);
-   process.once("SIGTERM", exit);
+//   process.once("SIGINT", exit);
+//   process.once("SIGTERM", exit);
 
    const start = await bot.db.get("start");
    if (start || start === null) {
