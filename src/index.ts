@@ -126,5 +126,5 @@ async function main() {
    if (start || start === null) {
       await bot.loop();
    }
-}
+//}
 main();
