@@ -111,12 +111,12 @@ async function main() {
       }, 1000 * 60);
    }
 
-   const exit = async () => {
-      await bot.sleepAllHeroes();
-      await bot.stop();
-      if (intervalReport) clearInterval(intervalReport);
-
-      process.exit();
+//   const exit = async () => {
+  //    await bot.sleepAllHeroes();
+    //  await bot.stop();
+      //if (intervalReport) clearInterval(intervalReport);
+//
+  //    process.exit();
    };
 
    process.once("SIGINT", exit);
