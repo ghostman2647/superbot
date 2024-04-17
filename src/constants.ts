@@ -1,5 +1,5 @@
-export const HOST = "sv-game-0.bombcrypto.io:8443";
-export const PORT = 443;
+export const HOST = "sv-game-0.bombcrypto.io";
+export const PORT = 8443;
 export const ZONE = "BomberGameZone";
 export const SALT_KEY = "AIzaSyAOx85ZD5X2nyEXJgfgyOOO1P";
 export const DATE_OFFSET = 62135596800000;
