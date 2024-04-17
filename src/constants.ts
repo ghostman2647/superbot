@@ -1,8 +1,8 @@
-export const HOST = "game.bombcrypto.io";
+export const HOST = "server-sa.bombcrypto.io";
 export const PORT = 443;
 export const ZONE = "BomberGameZone";
-export const SALT_KEY = "AIzaSyAOx85ZD5X2nyEXJgfgyOOO1P";
-export const DATE_OFFSET = 62135596800000;
+export const SALT_KEY = "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9";
+export const DATE_OFFSET = 604800000;
 export const VERSION_CODE = 24041520;
 // export const SERVERS = ["na", "sea", "sa"];
 export const LC = "";
