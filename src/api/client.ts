@@ -444,11 +444,11 @@ export class Client {
 
    async getPing(server: string) {
       const start = process.hrtime();
-      await got.get(`https://api.bombcrypto.io/ping/${server}`, {
+      await got.get(`https://sv-pvp-br-p.bombcrypto.io/ping`, {
          headers: this.apiBaseHeaders,
          http2: true,
       });
-      await got.get(`https://api.bombcrypto.io/ping/${server}`, {
+      await got.get(`https://sv-pvp-br-p.bombcrypto.io/ping`, {
          headers: this.apiBaseHeaders,
          http2: true,
       });
